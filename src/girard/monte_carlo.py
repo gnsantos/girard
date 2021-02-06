@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import scipy
-from solidus import sampling
+from girard import sampling
 
 
 def all_coordinates_are_positive(vec):

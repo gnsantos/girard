@@ -6,7 +6,7 @@ from numpy import matrix, arccos
 from numpy.linalg import inv, det
 from decimal import *
 
-from solidus import linear_algebra as la, memoize as mem, utils
+from girard import linear_algebra as la, memoize as mem, utils
 
 #term of the hypergeometric series in dimension \binom{n}{k}.
 # a and alpha are vectors in dimension \binom{n}{k}

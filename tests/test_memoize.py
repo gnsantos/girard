@@ -1,6 +1,6 @@
 from pytest import mark
 
-from solidus import memoize as m
+from girard import memoize as m
 
 
 @mark.parametrize('n, fact', [

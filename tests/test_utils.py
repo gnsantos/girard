@@ -1,7 +1,7 @@
 from math import sqrt, pi, isclose
 from pytest import mark
 
-from solidus import utils as u
+from girard import utils as u
 
 
 SQRT_PI = sqrt(pi)

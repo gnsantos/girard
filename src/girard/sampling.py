@@ -1,5 +1,5 @@
 import numpy as np
-from solidus import linear_algebra as la
+from girard import linear_algebra as la
 
 def sample_hypersphere_point(dim):
     gaussianSamples = np.random.normal(0, 1, dim)

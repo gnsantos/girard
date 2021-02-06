@@ -7,7 +7,7 @@ from toolz import reduce
 
 from datetime import datetime
 
-from solidus import linear_algebra as la, memoize as mem
+from girard import linear_algebra as la, memoize as mem
 
 def sampleHyperspherePoint(dim):
     gaussianSamples = np.random.normal(0, 1, dim)

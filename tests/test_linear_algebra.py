@@ -1,7 +1,7 @@
 from numpy import dot
 from pytest import mark
 
-from solidus import linear_algebra as la
+from girard import linear_algebra as la
 
 
 @mark.parametrize('v1, v2, expected', [
