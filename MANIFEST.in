@@ -1,0 +1,4 @@
+include requirements.in
+include requirements?*.txt
+
+graft src/solidus/resources

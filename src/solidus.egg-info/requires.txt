@@ -1,0 +1,9 @@
+seaborn
+scipy
+matplotlib
+numpy
+toolz
+
+[test_deps]
+pytest<6,>=4.3.1
+pytest-xdist<2,>=1.26.1
